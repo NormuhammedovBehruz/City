@@ -1,0 +1,151 @@
+/* Global */
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 2px dotted #eb0b0b;
+    outline-offset: 2px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc8fa;
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+}
+
+/* Main */
+
+.main-content {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.main-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-item {
+    background: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0px 0px 30px;
+    width: 360px;
+    height: 600px;
+}
+
+.logo-heading {
+    margin: 0;
+    display: inline-block;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    color: #535252;
+}
+
+.logo-heading:hover {
+    color: #000;
+}
+
+.hero-content-main {
+    background-color: #fff;
+    padding: 40px 30px 40px 70px;
+    width: 700px;
+}
+
+.hero-content-mainn {
+    margin-bottom: 70px;
+    margin-left: 330px;
+}
+
+.heronav {
+    margin-left: auto;
+}
+
+.hero-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.hero-link {
+    text-decoration: none;
+    color: rgb(133, 125, 125);
+}
+
+.hero-link:hover {
+    color: #000;
+}
+
+.main-content-hero-heading {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: normal;
+    font-size: 70px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.main-content-hero-heading::after {
+    display: inline-block;
+    content: "";
+    width: 110px;
+    height: 4px;
+    background: #000;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.main-content-hero-text {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.content-div2 {
+    display: flex;
+}
+
+.div-item {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.hero-img {
+}
+
+.main-logo-hero {
+    margin-right: 50px;
+}
+
+.content-div2-text {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.div-hero-text {
+    width: 300px;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
